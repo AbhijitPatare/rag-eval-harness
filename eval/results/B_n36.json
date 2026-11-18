@@ -1,0 +1,209 @@
+{
+  "name": "B_n36",
+  "n": 36,
+  "k": 5,
+  "hit@5": 0.694,
+  "doc_hit@5": 0.889,
+  "mrr": 0.556,
+  "avg_latency_s": 0.125,
+  "misses": [
+    {
+      "id": 4,
+      "question": "Is the UGC allowed to inspect a foreign university's campus in India?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          1
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          8
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          26
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "question": "How many years of experience and what doctorate are needed for the physical education and sports director post?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          86
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          86
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          69
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Are UGC regulations binding on universities, or merely advisory?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          18
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          1
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          28
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Can an individual teacher apply to be excused from the NET requirement?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          8
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          7
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          60
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What sanction can the UGC impose on a university that contravenes its regulations?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          57
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          28
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          28
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What does the regulation say about recognising diplomas and degrees awarded by other universities?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          9
+        ],
+        [
+          "ugc-phd-standards.pdf",
+          8
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          6
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Who nominates the subject experts on the selection committee, and how many are there?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          11
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          73
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          71
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "question": "What kind of leadership should a college principal provide?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          98
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          71
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          72
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "question": "By how much can the required marks be relaxed for reserved-category doctoral applicants?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          59
+        ],
+        [
+          "ugc-phd-standards.pdf",
+          10
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          13
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Which kinds of institutions do the 2025 undergraduate and postgraduate regulations apply to?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          6
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          1
+        ],
+        [
+          "ugc-phd-standards.pdf",
+          8
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Which body is empowered to take decisions on academic matters, as defined in the definitions clause?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          14
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          14
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          14
+        ]
+      ]
+    }
+  ]
+}

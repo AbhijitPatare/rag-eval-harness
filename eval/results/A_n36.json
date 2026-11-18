@@ -1,0 +1,227 @@
+{
+  "name": "A_n36",
+  "n": 36,
+  "k": 5,
+  "hit@5": 0.667,
+  "doc_hit@5": 0.889,
+  "mrr": 0.543,
+  "avg_latency_s": 0.127,
+  "misses": [
+    {
+      "id": 4,
+      "question": "Is the UGC allowed to inspect a foreign university's campus in India?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          9
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          14
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          10
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What kind of conduct does the UGC expect from a Vice-Chancellor?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          17
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          18
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          12
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Are UGC regulations binding on universities, or merely advisory?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          1
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          1
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Can an individual teacher apply to be excused from the NET requirement?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          2
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          16
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          68
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What sanction can the UGC impose on a university that contravenes its regulations?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          28
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          27
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          57
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "question": "In which year was the first amendment to the minimum qualifications and career advancement regulations issued?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          2
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          15
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          4
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What does the regulation say about recognising diplomas and degrees awarded by other universities?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          27
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          6
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          26
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "question": "When do the 1975 fitness-for-grants rules take effect?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "question": "How does a foreign institution apply once it satisfies the eligibility criteria?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          8
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          7
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          8
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Who nominates the subject experts on the selection committee, and how many are there?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          12
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          11
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          75
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Which kinds of institutions do the 2025 undergraduate and postgraduate regulations apply to?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          6
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          1
+        ],
+        [
+          "ugc-ug-pg-regulations-2025.pdf",
+          9
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Which body is empowered to take decisions on academic matters, as defined in the definitions clause?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          12
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          27
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          24
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "D_n36",
+  "n": 36,
+  "k": 5,
+  "hit@5": 0.861,
+  "doc_hit@5": 0.944,
+  "mrr": 0.721,
+  "avg_latency_s": 4.544,
+  "misses": [
+    {
+      "id": 10,
+      "question": "How many years of experience and what doctorate are needed for the physical education and sports director post?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          86
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          69
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          87
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What sanction can the UGC impose on a university that contravenes its regulations?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          28
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          57
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          57
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What does the regulation say about recognising diplomas and degrees awarded by other universities?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          6
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          58
+        ],
+        [
+          "ugc-phd-standards.pdf",
+          13
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Who serves as secretary to the Executive Council?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          12
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          13
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          21
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Who nominates the subject experts on the selection committee, and how many are there?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          72
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          72
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          71
+        ]
+      ]
+    }
+  ]
+}
