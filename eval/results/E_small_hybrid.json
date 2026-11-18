@@ -1,0 +1,47 @@
+{
+  "name": "E_small_hybrid",
+  "n": 10,
+  "k": 5,
+  "hit@5": 0.8,
+  "doc_hit@5": 0.9,
+  "mrr": 0.8,
+  "avg_latency_s": 0.317,
+  "misses": [
+    {
+      "id": 4,
+      "question": "Is the UGC allowed to inspect a foreign university's campus in India?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          8
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          6
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          28
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What kind of conduct does the UGC expect from a Vice-Chancellor?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          17
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          18
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          2
+        ]
+      ]
+    }
+  ]
+}

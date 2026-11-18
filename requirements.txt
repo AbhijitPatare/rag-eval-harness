@@ -1,0 +1,9 @@
+psycopg[binary]>=3.2
+pgvector>=0.3
+pymupdf
+sentence-transformers
+fastapi
+uvicorn
+
+google-genai
+python-dotenv

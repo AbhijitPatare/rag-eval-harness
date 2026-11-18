@@ -1,0 +1,29 @@
+{
+  "name": "F_small_hybrid_rerank",
+  "n": 10,
+  "k": 5,
+  "hit@5": 0.9,
+  "doc_hit@5": 1.0,
+  "mrr": 0.833,
+  "avg_latency_s": 3.035,
+  "misses": [
+    {
+      "id": 4,
+      "question": "Is the UGC allowed to inspect a foreign university's campus in India?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          25
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          9
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          28
+        ]
+      ]
+    }
+  ]
+}

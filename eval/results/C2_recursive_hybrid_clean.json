@@ -1,0 +1,29 @@
+{
+  "name": "C2_recursive_hybrid_clean",
+  "n": 10,
+  "k": 5,
+  "hit@5": 0.9,
+  "doc_hit@5": 1.0,
+  "mrr": 0.725,
+  "avg_latency_s": 0.371,
+  "misses": [
+    {
+      "id": 4,
+      "question": "Is the UGC allowed to inspect a foreign university's campus in India?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          8
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          6
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          9
+        ]
+      ]
+    }
+  ]
+}

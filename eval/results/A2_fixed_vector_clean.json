@@ -1,0 +1,29 @@
+{
+  "name": "A2_fixed_vector_clean",
+  "n": 10,
+  "k": 5,
+  "hit@5": 0.9,
+  "doc_hit@5": 0.9,
+  "mrr": 0.783,
+  "avg_latency_s": 0.332,
+  "misses": [
+    {
+      "id": 7,
+      "question": "What kind of conduct does the UGC expect from a Vice-Chancellor?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          17
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          18
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          12
+        ]
+      ]
+    }
+  ]
+}

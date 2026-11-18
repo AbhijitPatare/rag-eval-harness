@@ -1,0 +1,10 @@
+{
+  "name": "D_recursive_hybrid_rerank",
+  "n": 10,
+  "k": 5,
+  "hit@5": 1.0,
+  "doc_hit@5": 1.0,
+  "mrr": 0.95,
+  "avg_latency_s": 5.037,
+  "misses": []
+}
