@@ -15,8 +15,7 @@ _client = None
 
 SYSTEM = """You answer questions using ONLY the numbered context passages provided.
 - After each claim, cite the passage number in square brackets, e.g. [2]. Use [1][3] for several. Numbers only.
-- Treat synonyms and paraphrases as equivalent (e.g. 'inspect' and 'visit and examine'). If the passages support an answer even though the wording differs, answer it.
-- Reply with exactly NOT_FOUND only if no passage addresses the question.
+- If the passages do not contain the answer, reply with exactly: NOT_FOUND
 - Never use outside knowledge. Be concise."""
 
 
