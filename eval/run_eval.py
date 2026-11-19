@@ -13,10 +13,11 @@ ap.add_argument("--mode", default="hybrid", choices=["vector", "keyword", "hybri
 ap.add_argument("--rerank", action="store_true")
 ap.add_argument("--k", type=int, default=5)
 ap.add_argument("--name")
+ap.add_argument("--questions", default="eval/questions.jsonl")
 args = ap.parse_args()
 name = args.name or f"{args.chunker}_{args.mode}{'_rerank' if args.rerank else ''}"
 
-qs = [json.loads(l) for l in Path("eval/questions.jsonl").read_text(encoding="utf-8-sig").splitlines() if l.strip()]
+qs = [json.loads(l) for l in Path(args.questions).read_text(encoding="utf-8-sig").splitlines() if l.strip()]
 qs = [q for q in qs if q.get("gold_doc")]
 
 hits = doc_hits = ev_hits = rr = ev_rr = 0.0
@@ -51,3 +52,4 @@ out = {
 Path("eval/results").mkdir(exist_ok=True)
 Path(f"eval/results/{name}.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
 print({k: v for k, v in out.items() if k not in ("misses",)})
+

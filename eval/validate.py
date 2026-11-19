@@ -1,4 +1,5 @@
 ﻿import json
+import sys
 
 from app.db import get_conn
 
@@ -7,7 +8,7 @@ def norm(s):
     return " ".join(s.lower().split())
 
 
-qs = [json.loads(l) for l in open("eval/questions.jsonl", encoding="utf-8-sig") if l.strip()]
+qs = [json.loads(l) for l in open(sys.argv[1] if len(sys.argv) > 1 else "eval/questions.jsonl", encoding="utf-8-sig") if l.strip()]
 with get_conn() as conn:
     rows = conn.execute("SELECT doc_id, page, text FROM chunks WHERE chunker='recursive'").fetchall()
 by = {}
@@ -25,3 +26,4 @@ for q in qs:
         print("SNIPPET NOT FOUND", q["id"], q["gold_doc"], q["gold_page"], repr(snip)); bad += 1
 answerable = sum(1 for q in qs if q.get("gold_doc"))
 print(f"{len(qs)} questions, {answerable} answerable, {bad} problems")
+
