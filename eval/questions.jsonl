@@ -40,3 +40,4 @@
 {"id": 40, "question": "How many B.Tech Computer Science seats does MIT-ADT University offer?", "gold_answer": "NOT_FOUND", "gold_doc": null, "gold_page": null}
 {"id": 41, "question": "Which university topped the NIRF 2025 overall ranking?", "gold_answer": "NOT_FOUND", "gold_doc": null, "gold_page": null}
 {"id": 42, "question": "What are the hostel fees at Savitribai Phule Pune University?", "gold_answer": "NOT_FOUND", "gold_doc": null, "gold_page": null}
+{"id": 43, "question": "Under the deemed-university regulations, what power does the institution have over recognising degrees and diplomas of other universities?", "gold_answer": "It can recognise diplomas and degrees of other universities and institutions and determine their equivalence with its own.", "gold_doc": "ugc-deemed-universities-2022.pdf", "gold_page": 14, "gold_snippet": "to recognize diplomas and degrees of universities"}
