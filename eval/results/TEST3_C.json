@@ -1,0 +1,53 @@
+{
+  "name": "TEST3_C",
+  "n": 16,
+  "k": 5,
+  "hit@5": 0.875,
+  "evidence_hit@5": 0.875,
+  "doc_hit@5": 1.0,
+  "mrr": 0.671,
+  "evidence_mrr": 0.671,
+  "avg_latency_s": 0.303,
+  "evidence_misses": [
+    206,
+    212
+  ],
+  "misses": [
+    {
+      "id": 206,
+      "question": "Besides local shortage of facilities, what regional development goal can justify setting up a non-central university under the 1974 rules?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 212,
+      "question": "Why might a teacher be refused study leave even if everything else is in order?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          89
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          90
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          92
+        ]
+      ]
+    }
+  ]
+}

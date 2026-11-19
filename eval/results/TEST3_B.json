@@ -1,0 +1,72 @@
+{
+  "name": "TEST3_B",
+  "n": 16,
+  "k": 5,
+  "hit@5": 0.812,
+  "evidence_hit@5": 0.812,
+  "doc_hit@5": 1.0,
+  "mrr": 0.58,
+  "evidence_mrr": 0.58,
+  "avg_latency_s": 0.238,
+  "evidence_misses": [
+    207,
+    212,
+    215
+  ],
+  "misses": [
+    {
+      "id": 207,
+      "question": "What must the law establishing a university say about planning if the university is to be considered fit for grants under the 1974 rules?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 212,
+      "question": "Why might a teacher be refused study leave even if everything else is in order?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          92
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          89
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          88
+        ]
+      ]
+    },
+    {
+      "id": 215,
+      "question": "What alternatives to the standard-duration degree can institutions offer under the 2025 regulations?",
+      "got": [
+        [
+          "ugc-ug-pg-regulations-2025.pdf",
+          12
+        ],
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          9
+        ],
+        [
+          "ugc-ug-pg-regulations-2025.pdf",
+          14
+        ]
+      ]
+    }
+  ]
+}
