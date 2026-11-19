@@ -1,0 +1,90 @@
+{
+  "name": "TEST_D",
+  "n": 15,
+  "k": 5,
+  "hit@5": 0.733,
+  "evidence_hit@5": 0.8,
+  "doc_hit@5": 1.0,
+  "mrr": 0.469,
+  "evidence_mrr": 0.536,
+  "avg_latency_s": 4.557,
+  "evidence_misses": [
+    108,
+    110,
+    111
+  ],
+  "misses": [
+    {
+      "id": 101,
+      "question": "Is a doctoral degree enough to skip the national eligibility test when applying for a lecturer post under the 2000 regulations?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          8
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          63
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          67
+        ]
+      ]
+    },
+    {
+      "id": 108,
+      "question": "Which kind of university needs no special justification to be considered under the 1974 fitness-for-grants rules?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          4
+        ],
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 110,
+      "question": "What legal forms can an institution take to be considered under the 1975 grants-fitness rules?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          25
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          14
+        ]
+      ]
+    },
+    {
+      "id": 111,
+      "question": "What must be true of the affiliating university for a college to be fit for grants under the 1975 rules?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          2
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          72
+        ]
+      ]
+    }
+  ]
+}

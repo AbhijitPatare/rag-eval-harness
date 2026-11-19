@@ -1,0 +1,109 @@
+{
+  "name": "TEST_C",
+  "n": 15,
+  "k": 5,
+  "hit@5": 0.667,
+  "evidence_hit@5": 0.733,
+  "doc_hit@5": 1.0,
+  "mrr": 0.513,
+  "evidence_mrr": 0.58,
+  "avg_latency_s": 0.259,
+  "evidence_misses": [
+    102,
+    109,
+    110,
+    111
+  ],
+  "misses": [
+    {
+      "id": 101,
+      "question": "Is a doctoral degree enough to skip the national eligibility test when applying for a lecturer post under the 2000 regulations?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          8
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          58
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          7
+        ]
+      ]
+    },
+    {
+      "id": 102,
+      "question": "What experience is expected of a Professor in journalism and mass communication under the 2000 regulations?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          8
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          84
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          7
+        ]
+      ]
+    },
+    {
+      "id": 109,
+      "question": "Can a purely affiliating university qualify as fit for central grants under the 1974 rules?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 110,
+      "question": "What legal forms can an institution take to be considered under the 1975 grants-fitness rules?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 111,
+      "question": "What must be true of the affiliating university for a college to be fit for grants under the 1975 rules?",
+      "got": [
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1975.pdf",
+          1
+        ],
+        [
+          "ugc-fitness-grants-rules-1974.pdf",
+          1
+        ]
+      ]
+    }
+  ]
+}
