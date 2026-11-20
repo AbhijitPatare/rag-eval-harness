@@ -2,7 +2,7 @@
 
 Question answering over a small corpus of UGC (University Grants Commission) regulations, built to be measured. Retrieval variants are compared on a frozen held-out set, and answer quality is graded separately from retrieval.
 
-**Live demo:** coming soon
+**Live demo:** https://rag-eval-harness-cxfjzuze2xmdqlzyg99lhd.streamlit.app/
 
 ## Pipeline
 

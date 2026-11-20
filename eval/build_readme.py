@@ -59,7 +59,7 @@ readme = f"""# RAG Eval Harness
 
 Question answering over a small corpus of UGC (University Grants Commission) regulations, built to be measured. Retrieval variants are compared on a frozen held-out set, and answer quality is graded separately from retrieval.
 
-**Live demo:** coming soon
+**Live demo:** https://rag-eval-harness-cxfjzuze2xmdqlzyg99lhd.streamlit.app/
 
 ## Pipeline
 
@@ -144,3 +144,4 @@ PDFs go in `data/` (gitignored). Eval scripts are in `eval/`, and raw results ar
 """
 open("README.md", "w", encoding="utf-8").write(readme)
 print("README.md written,", len(readme), "chars")
+
