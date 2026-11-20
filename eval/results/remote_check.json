@@ -1,0 +1,128 @@
+{
+  "name": "remote_check",
+  "n": 37,
+  "k": 5,
+  "hit@5": 0.838,
+  "evidence_hit@5": 0.865,
+  "doc_hit@5": 0.946,
+  "mrr": 0.709,
+  "evidence_mrr": 0.741,
+  "avg_latency_s": 8.051,
+  "evidence_misses": [
+    10,
+    14,
+    17,
+    20,
+    28
+  ],
+  "misses": [
+    {
+      "id": 10,
+      "question": "How many years of experience and what doctorate are needed for the physical education and sports director post?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          86
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          69
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          87
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Can an individual teacher apply to be excused from the NET requirement?",
+      "got": [
+        [
+          "ugc-career-advancement-2000.pdf",
+          9
+        ],
+        [
+          "ugc-career-advancement-2000.pdf",
+          7
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          58
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What sanction can the UGC impose on a university that contravenes its regulations?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          28
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          57
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          57
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What does the regulation say about recognising diplomas and degrees awarded by other universities?",
+      "got": [
+        [
+          "ugc-foreign-campuses-2023.pdf",
+          6
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          58
+        ],
+        [
+          "ugc-ug-pg-regulations-2025.pdf",
+          10
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Who serves as secretary to the Executive Council?",
+      "got": [
+        [
+          "ugc-deemed-universities-2022.pdf",
+          17
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          12
+        ],
+        [
+          "ugc-deemed-universities-2022.pdf",
+          13
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Who nominates the subject experts on the selection committee, and how many are there?",
+      "got": [
+        [
+          "ugc-min-qualifications-2018.pdf",
+          72
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          72
+        ],
+        [
+          "ugc-min-qualifications-2018.pdf",
+          73
+        ]
+      ]
+    }
+  ]
+}

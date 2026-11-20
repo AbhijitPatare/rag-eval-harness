@@ -1,0 +1,6 @@
+streamlit
+psycopg[binary]>=3.2
+pgvector>=0.3
+sentence-transformers
+google-genai
+python-dotenv
